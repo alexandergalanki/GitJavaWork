@@ -1,6 +1,8 @@
+package Arith;
+
 //package javafundamentals;
 
-public class HelloWorld {
+public class Add {
 	
 public static void main(String[] args)
 {
