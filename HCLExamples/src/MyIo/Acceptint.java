@@ -1,12 +1,95 @@
-package MyIo;
 
-import java.util.Scanner;
+package org.animals;
 
+class Lion
+{
 
-public class Acceptint {
-public static void main(String[] args) {
-	Scanner sc=new Scanner(System.in);
-	int i=sc.nextInt();
-	System.out.print(i);
-	}
+	String colour ();
+	Float weight();
+	Int age();
+
+Lion(){}
+
+Lion(String colour,Float weight,Int age)
+{
+	this.colour=colour;this.weight=weight;this.age=age;
 }
+
+	public Boolean isVeg()
+{
+           return True;
+
+}
+	public Boolean canClimb()
+{
+            return false;
+}
+	public void getSound()
+{
+	System.out.println("Roars");
+	
+}
+class Monkey
+
+{
+	String colour ();
+	Float weight();
+	Int age();
+
+Monkey(){}
+
+
+Monkey(String colour,Float weight,Int age)
+{
+	this.colour=colour;this.weight=weight;this.age=age;
+}
+
+	public Boolean isVeg()
+{
+ return True;
+
+}
+	public Boolean canClimb()
+{
+ return True;
+
+}
+	public void getSound()
+{
+	System.out.println("barks");
+
+}
+
+}
+class Elephant
+
+{
+	String colour ();
+	Float weight();
+	Int age();
+
+Elephant(){}
+
+Elephant(String colour,Float weight,Int age)
+{
+	this.colour=colour;this.weight=weight;this.age=age;
+}
+
+	public Boolean isVeg()
+{
+return True;
+
+}
+	public Boolean canClimb()
+{
+ return false;
+}
+	public void getSound()
+{
+	System.out.println("trumpets");
+
+
+}
+}
+
+
