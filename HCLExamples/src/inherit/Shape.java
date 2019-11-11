@@ -1,30 +1,19 @@
 package inherit;
 
-public interface Shape {
-	
-	public String shapeName;
-	public int vertex;
+public abstract class Shape {
 
-	
-	public abstract void calcArea();
-}
-class Circle extends Shape
-	{
-		float radius,area;
-		Circle()
-		{
-			final static float PI=3.141f;
-			
-		}
-	public void calcArea()
-	{
-		area=PI*radius*radius;
-		System.out.println("Area of a circles is:"+area);
-	}
+//instance variables or properties or characteristics or attributes
+public String shapeName;
+public int vertex;
+
+//create abstract methods -indicates to compiler,no body for this method
+public abstract void calcArea();
+
+//concrete method
+public void showShape() {
+System.out.println("Shape:"+shapeName);
+System.out.println("Numbe of vertex:"+vertex);
 
 }
-class Triangle extends Shape
-float base height area;
 
-{
 }
