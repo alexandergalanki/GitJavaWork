@@ -1,3 +1,4 @@
+package Arith;
 import java.util.Scanner;
 class PrimeNum
 {

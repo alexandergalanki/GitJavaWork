@@ -1,0 +1,10 @@
+package inherit;
+
+public  interface PhysicalConstants {
+	
+	long SPEED_OF_THE_LIGHT_IN_VACCUME=299792458L;
+	double GRAVITATIONAL_CONSTANT=6.67428E-11;
+	float STANDARD_GRAVITATIONAL_ACCLERATION=9.80665F;
+	
+
+}

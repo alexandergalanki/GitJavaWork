@@ -20,10 +20,15 @@ s1.calcArea();
 Shape s2=acceptobject(c);
 s2.calcArea();
 }
-
 public static Shape acceptobject(Shape s)
 {
-return s;
+	if(s instanceof Triangle)
+	{
+		System.out.println("Triangle passed as an object");
+	}else if(s instanceof Circle)
+	{
+		System.out.println("Circle passed as an oblect");
+	}
+ return s;
 }
-
 }  

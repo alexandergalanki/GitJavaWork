@@ -1,13 +1,13 @@
 package oop;
 
 public class Bird {
-	//instance variables neded to store object data
+	//instance variables needed to store object data
 	public static int legs;
 	public static int wings;
 	public String birdname;
 	public String birdcolor;
 	private boolean singStatus;
-	//constructor is a method used to initiazlize common values to the attributes or properties
+	//constructor is a method used to initialize common values to the attributes or properties
 	Bird()
 	{
 		legs=2;

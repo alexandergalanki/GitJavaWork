@@ -9,8 +9,8 @@ public class Bike implements Cycle,Automobile{
 		return true;
 	}
 
-	@Override
-	public static void balance() {
+	public void balance () 
+	{
 		// TODO Auto-generated method stub
 		
 	}

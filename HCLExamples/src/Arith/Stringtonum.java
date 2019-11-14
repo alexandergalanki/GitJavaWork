@@ -1,3 +1,4 @@
+package Arith;
 
 public class Stringtonum {
 	public static void main (String args[])
