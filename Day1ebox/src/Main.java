@@ -1,27 +1,47 @@
 import java.util.Scanner;
 import static java.lang.System.out;
-
-import java.text.DecimalFormat;
-public class Main {
-
-public static void main(String[] args) {
-
-Scanner sc=new Scanner(System.in);
-ItemType it=new ItemType();
-out.println("Enter the Item Type Name");
-it.setName(sc.nextLine());
-out.println("Enter the Deposit Amount");
-it.setDeposit(sc.nextDouble());
-out.println("Enter the Cost per day of the Item Type");
-it.setCostPerDay(sc.nextDouble());
-//call display
-display(it);
-}
-public static void display(ItemType it)
+public class Main 
 {
-DecimalFormat df=new DecimalFormat("#####.0");
-out.println("Item Name:"+it.getName());
-out.println("Deposit Amount:"+df.format(it.getDeposit()));
-out.println("Cost Per Day:"+df.format(it.getCostPerDay()));
+	String Book;
+	String getName() {
+		return getName();
+	} 
+	String getDetails() {
+		return getDetails();
+	} public void StallCategory()
+{
+
+String sc = Book;
+out.println("Details of the stall category:");
+out.print("Name:"+sc.getName());
+out.print("Details:"+sc.getDetails());
+}
+
+public static void main(String[] args) 
+{
+Scanner s =new Scanner(System.in);
+
+StallCategory sc=new StallCategory();
+out.println("Enter the name of the stall category:");
+sc.setName(s.nextLine());
+out.println("Enter the details of the stall category:");
+sc.setDetail(s.nextLine());
+
+display (sc);
+
+}
+public static void display(StallCategory sc)
+
+{
+out.println("Using Default Constructor");
+out.println("Details of the stall category:");
+out.println("Name:"+sc.getName());
+out.println("Details:"+sc.getDetail());
+
+out.println("Using Parameterised Constructor");
+out.println("Details of the stall category:");
+out.println("Name:"+sc.getName());
+out.println("Details:"+sc.getDetail());
 }
 }
+

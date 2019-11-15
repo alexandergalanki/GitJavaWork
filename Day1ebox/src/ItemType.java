@@ -1,6 +1,5 @@
-
-public class ItemType {
-
+public class ItemType 
+{
 private String name;
 private double deposit;
 private double costPerDay;
