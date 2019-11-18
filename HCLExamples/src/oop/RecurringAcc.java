@@ -14,8 +14,5 @@ System.out.println("Enter AccNum ");
 AccNum=sc.nextLong();
 
 System.out.println("The Account Number is :  "+AccNum);
-
-
 }
-
 }
