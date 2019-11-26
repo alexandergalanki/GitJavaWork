@@ -1,47 +1,32 @@
-import java.util.Scanner;
-import static java.lang.System.out;
-public class Main 
+import java.util.*;
+import java.io.*;
+public class Main
 {
-	String Book;
-	String getName() {
-		return getName();
-	} 
-	String getDetails() {
-		return getDetails();
-	} public void StallCategory()
+public static void main(String[] args)throws IOException
 {
-
-String sc = Book;
-out.println("Details of the stall category:");
-out.print("Name:"+sc.getName());
-out.print("Details:"+sc.getDetails());
-}
-
-public static void main(String[] args) 
+String s,st,st1;
+BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+s=br.readLine();
+StringTokenizer t=new StringTokenizer(s,";");
+while(t.hasMoreTokens())
 {
-Scanner s =new Scanner(System.in);
+st=t.nextToken();
+StringTokenizer t1=new StringTokenizer(st,"=");
+if(t1.hasMoreTokens())
 
-StallCategory sc=new StallCategory();
-out.println("Enter the name of the stall category:");
-sc.setName(s.nextLine());
-out.println("Enter the details of the stall category:");
-sc.setDetail(s.nextLine());
-
-display (sc);
+while(t1.hasMoreTokens())
+{
+st1=t1.nextToken();
+System.out.printf(st1+" ");
+System.out.printf(st1);
 
 }
-public static void display(StallCategory sc)
-
-{
-out.println("Using Default Constructor");
-out.println("Details of the stall category:");
-out.println("Name:"+sc.getName());
-out.println("Details:"+sc.getDetail());
-
-out.println("Using Parameterised Constructor");
-out.println("Details of the stall category:");
-out.println("Name:"+sc.getName());
-out.println("Details:"+sc.getDetail());
+else
+System.out.println();
 }
 }
+}
+
+
+
 
