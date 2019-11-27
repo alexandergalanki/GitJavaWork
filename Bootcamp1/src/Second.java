@@ -1,6 +1,7 @@
+import java.io.IOException;
 import java.util.Scanner;
 public class Second{
-public static void main(String[] args)
+public static void main(String[] args) throws IOException
 
 {
 int num1, num2, num3, result, temp;
