@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name>fetchdata</display-name>
+
+     <servlet>
+          <servlet-name>SelectDB</servlet-name>
+          <servlet-class>SelectDB</servlet-class>
+     </servlet>
+     <servlet-mapping>
+          <servlet-name>SelectDB</servlet-name>
+          <url-pattern>/SelectDB</url-pattern>
+     </servlet-mapping>
+</web-app>
+
