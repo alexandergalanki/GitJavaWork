@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="StudentBean" table="FEE_STUDENT">
+      <id name="ROLLNO" type="integer" column="ROLLNO">
+          <generator class="assigned"></generator>
+      </id>
+      <property name="name" type="string" column="name"></property>
+      <property name="email" type="string" column="email"></property>
+      <property name="gender" type="string" column="gender"></property>
+      <property name="course" type="string" column="course"></property>
+      <property name="fee" type="integer" column="fee"></property>
+       <property name="paid" type="integer" column="paid"></property>
+        <property name="due" type="integer" column="due"></property>
+         <property name="address" type="string" column="address"></property>
+          <property name="contact" type="string" column="contact"></property>
+  </class>
+</hibernate-mapping>
